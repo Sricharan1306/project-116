@@ -1,0 +1,26 @@
+body{
+    background-image: url("background.jpg");
+}
+#set:hover{
+background-color: rgb(219, 69, 0);
+
+}
+#set{
+    font-size: 15px;
+    
+}
+#blue{
+    font-size: 20px;
+}
+ canvas{
+  animation-name: color_change;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+}
+@keyframes color_change{
+    0%{background-color:  blue;};
+    25%{background-color: chocolate;};
+    50%{background-color: crimson;}
+    75%{background-color: gold;}
+    100%{background-color: lightblue;}
+}
